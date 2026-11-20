@@ -1,0 +1,4 @@
+Application opened...
+Clicked on login link
+Entered valid username Sanvi9 and password
+Clicked on log in button

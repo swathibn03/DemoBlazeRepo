@@ -1,0 +1,5 @@
+Application opened...
+Clicked on login link
+Selected Samsung Galaxy S6 item
+Clicked on Add To Cart button
+Alert popup message on adding item to cart is  undefined

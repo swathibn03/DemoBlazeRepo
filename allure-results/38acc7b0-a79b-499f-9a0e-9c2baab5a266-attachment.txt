@@ -1,0 +1,4 @@
+Application opened...
+Clicked on login link
+Alert message: Wrong password.
+User could not login

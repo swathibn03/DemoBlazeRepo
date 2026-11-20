@@ -1,0 +1,3 @@
+Application opened...
+Clicked on login link
+Selected Samsung Galaxy S6 item

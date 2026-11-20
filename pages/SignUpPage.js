@@ -17,19 +17,13 @@ export class SignUpPage{
         await this.signuplink.click()
     }
 
-    async signUpCreate(username,password){
+    async signUpUser(username,password){
         await this.username.fill(username)
         await this.password.fill(password)
     }
 
     async clicksignupbtn(){
         await this.signupbtn.click()
-    }
-
-
-    async signUpClose(username,password){
-        await this.username.fill(username)
-        await this.password.fill(password)
     }
 
 

@@ -1,0 +1,3 @@
+Application opened successfully
+Clicked on login link
+Entered login credentials for user  Swathi3

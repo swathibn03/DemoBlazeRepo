@@ -1,0 +1,11 @@
+Alert pop up opened....
+Product added.
+Alert message on adding item to cart is  Product added.
+Product added to cart successfully..
+Clicked Cart link
+Entered name  Swathi
+Entered country  India
+Entered city  Kerala
+Entered credit card no  45678
+Entered month  12
+Entered year  2030

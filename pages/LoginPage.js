@@ -1,3 +1,4 @@
+import {expect} from '@playwright/test'
 export class LoginPage{
 
     constructor(page){
@@ -7,23 +8,29 @@ export class LoginPage{
         this.loginpassword=page.locator('#loginpassword')
         this.loginbtn=page.locator('#logInModal button:has-text("Log in")')
         this.welcommsg=page.locator('#nameofuser')
-        this.logoutlink=page.locator('#logout2')
     }
     async openApplication(){
         await this.page.goto('https://www.demoblaze.com/')
     }
     async clickLoginLink(){
+        await expect(this.loginlink).toBeVisible()
         await this.loginlink.click()
     }
     async enterLoginCredentials(username,password){
-
-        this.loginusername.fill(username)
-        this.loginpassword.fill(password)
+        await expect(this.loginusername).toBeVisible()
+        await this.loginusername.fill(username)
+        await expect(this.loginpassword).toBeVisible()
+        await this.loginpassword.fill(password)
     }
     async clickLoginBtn(){
+        await expect(this.loginbtn).toBeVisible()
+        await expect(this.loginbtn).toBeEnabled()
         await this.loginbtn.click()
     }
-    async clickLogoutLink(){
-        await this.logoutlink.click()
+
+    async verifyLogin(username) {
+        await expect(this.welcommsg).toBeVisible()
+        await expect(this.welcommsg).toContainText(username);
     }
+
 }

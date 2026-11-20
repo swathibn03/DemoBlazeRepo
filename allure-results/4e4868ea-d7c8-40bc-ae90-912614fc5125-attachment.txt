@@ -1,0 +1,14 @@
+Application opened successfully
+Clicked on login link
+Entered login credentials for user  Swathi3
+Selected phone item  Samsung galaxy s6
+Alert message: Product added.
+Product added to cart successfully
+Clicked Cart link
+Entered name  Swathi
+Entered country  India
+Entered city  Kerala
+Entered credit card no  45678
+Entered month  12
+Entered year  2030
+Confirmation message is  Thank you for your purchase!

@@ -1,0 +1,6 @@
+Application opened...
+Clicked on login link
+Entered valid username and password
+Clicked on log in button
+Login successful!
+Clicked on logout link

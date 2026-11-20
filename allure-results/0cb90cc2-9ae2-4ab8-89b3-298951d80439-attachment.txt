@@ -1,0 +1,3 @@
+Application opened...
+Clicked on login link
+Alert message: User does not exist.

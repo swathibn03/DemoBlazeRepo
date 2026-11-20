@@ -1,0 +1,5 @@
+Alert message: Product added.
+Product added to cart successfully
+Cart is opened..
+Swathi
+Order placed successfully!!!

@@ -1,0 +1,10 @@
+Application opened successfully
+Starting login for user: Swathi3
+Clicked on Login link
+Entered credentials for Swathi3
+Clicked on Login button
+Login successful for Swathi3
+Logout successful for Swathi3
+--------------------------------
+Starting login for user: Sanvi9
+Clicked on Login link

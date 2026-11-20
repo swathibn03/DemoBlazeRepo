@@ -1,0 +1,7 @@
+Application opened...
+Clicked on login link
+Entered valid username Swathi3 and password playwright
+Clicked on log in button
+Login successful!
+Clicked on logout link
+Application opened...

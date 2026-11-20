@@ -1,3 +1,4 @@
+import { expect } from "@playwright/test";
 export class LogoutPage{
     constructor(page){
         this.page=page
@@ -5,6 +6,7 @@ export class LogoutPage{
     }
     
     async clickLogoutLink(){
+        await expect(this.logoutlink).toBeVisible()
         await this.logoutlink.click()
     }
 }

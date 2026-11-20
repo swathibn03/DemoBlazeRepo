@@ -1,0 +1,7 @@
+Application opened...
+Clicked on login link
+Selected Samsung Galaxy S6 item
+Alert pop up opened....
+Clicked on Add To Cart button
+Alert popup message on adding item to cart is  Product added.
+Item added to cart successfully
